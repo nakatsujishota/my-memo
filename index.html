@@ -1,0 +1,88 @@
+<html>
+
+<head>
+    <title>Animal Quiz</title>
+    <style>
+        <!--ホームページの背景、レイアウト-->
+        body {
+            margin: 0;
+            padding: 40px 20px;
+            background-color: #d8f3dc; 
+            color: #222222;
+            font-family: sans-serif;
+        }
+        <!--犬、猫、兎、ハムスターの画像を並べる-->
+         .animal-list {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 24px;
+            max-width: 520px;
+            margin: 40px auto 0;
+        }
+        <!--犬、猫、兎、ハムスターのカード1つひとつの設定-->
+        .animal-card {
+            display: block;
+            width: 200px;
+            background-color: #ffffff;
+            border-radius: 16px;
+            padding: 15px;
+            text-align: center;
+            text-decoration: none;
+            color: #222222;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+        }
+        <!--画像にマウスカーソルを合わせると少し浮くようにした-->
+        .animal-card:hover {
+            transform: translateY(-5px);
+        }
+        <!--犬、猫、兎、ハムスターのカード内の設定-->
+        .animal-card img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        <!--動物の名前の設定-->
+        .animal-name {
+            margin: 12px 0 0;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="text-align: center;" >Animal Quiz</h1>
+    <p style="text-align: center;">
+        Animal Quizへようこそ!<br>
+        ここではペットとしてよく飼われる動物のクイズができるよ<br>
+        満点目指してペットを楽しく暮らせるようにしよう<br>
+    </p>
+    <div class="animal-list">
+
+        <a href="dog.html" class="animal-card">
+            <img src="https://illust-stock.com/wp-content/uploads/inu.png" alt="犬">
+            <p class="animal-name">犬（いぬ）</p>
+        </a>
+
+        <a href="cat.html" class="animal-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyhTN9vJvbk6kcuNEuA4bNDd4McOpRbV1f1gJd0tIFMQ&s=10" alt="猫">
+            <p class="animal-name">猫（ねこ）</p>
+        </a>
+
+        <a href="rabbit.html" class="animal-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqW7kZEGu0cOlZw9GrZXuu1tZH6QBy1SHIo8EM6Vho7Q&s=10" alt="うさぎ">
+            <p class="animal-name">うさぎ</p>
+        </a>
+
+        <a href="hamster.html" class="animal-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6bCcYtL0UZ8JauilTbtKzJQJ0Zzf4awJDz2wmO7T97g&s=10" alt="ハムスター">
+            <p class="animal-name">ハムスター</p>
+        </a>
+    </div>
+
+
+</body>    
+
+</html>

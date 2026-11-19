@@ -1,0 +1,196 @@
+<mxfile host="65bd71144e">
+    <diagram id="t7jEggU0cLYHguH9HHzW" name="ページ-1">
+        <mxGraphModel dx="1462" dy="576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="fvY_vTZm3ZurFnYin_c5-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="ペット動物クイズアプリ" vertex="1">
+                    <mxGeometry height="40" width="180" x="-320" y="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="fvY_vTZm3ZurFnYin_c5-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#f8cecc;strokeColor=#b85450;" value="問題を選ぶ" vertex="1">
+                    <mxGeometry height="60" width="120" x="305" y="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="fvY_vTZm3ZurFnYin_c5-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="✅ペットの系統をリスト表示する" vertex="1">
+                    <mxGeometry height="60" width="120" x="305" y="250" as="geometry"/>
+                </mxCell>
+                <mxCell id="fvY_vTZm3ZurFnYin_c5-5" edge="1" parent="1" style="shape=link;html=1;" value="">
+                    <mxGeometry relative="1" width="100" as="geometry">
+                        <mxPoint x="-280" y="235" as="sourcePoint"/>
+                        <mxPoint x="1510" y="235" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="fvY_vTZm3ZurFnYin_c5-6" edge="1" parent="1" style="endArrow=none;html=1;" value="">
+                    <mxGeometry height="50" relative="1" width="50" as="geometry">
+                        <mxPoint x="-250" y="420" as="sourcePoint"/>
+                        <mxPoint x="1510" y="420" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="fvY_vTZm3ZurFnYin_c5-7" edge="1" parent="1" style="endArrow=none;html=1;" value="">
+                    <mxGeometry height="50" relative="1" width="50" as="geometry">
+                        <mxPoint x="-260" y="320" as="sourcePoint"/>
+                        <mxPoint x="1510" y="320" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="fvY_vTZm3ZurFnYin_c5-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="初級・中級・上級から選べるようにする" vertex="1">
+                    <mxGeometry height="60" width="120" x="450" y="250" as="geometry"/>
+                </mxCell>
+                <mxCell id="fvY_vTZm3ZurFnYin_c5-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="どの系統のクイズにするかを選択する" vertex="1">
+                    <mxGeometry height="60" width="120" x="305" y="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="fvY_vTZm3ZurFnYin_c5-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="4択問題から1つ選択する" vertex="1">
+                    <mxGeometry height="60" width="120" x="595" y="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="fvY_vTZm3ZurFnYin_c5-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="10問出題する" vertex="1">
+                    <mxGeometry height="60" width="120" x="860" y="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="fvY_vTZm3ZurFnYin_c5-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="何択か、〇×か選べるようにする" vertex="1">
+                    <mxGeometry height="60" width="120" x="595" y="340" as="geometry"/>
+                </mxCell>
+                <mxCell id="fvY_vTZm3ZurFnYin_c5-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="問題の順番はランダムにする" vertex="1">
+                    <mxGeometry height="60" width="120" x="863" y="250" as="geometry"/>
+                </mxCell>
+                <mxCell id="fvY_vTZm3ZurFnYin_c5-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="半分以上だったらひたすらほめまくる" vertex="1">
+                    <mxGeometry height="60" width="120" x="1300" y="250" as="geometry"/>
+                </mxCell>
+                <mxCell id="fvY_vTZm3ZurFnYin_c5-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="結果を確認する" vertex="1">
+                    <mxGeometry height="60" width="120" x="1155" y="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="fvY_vTZm3ZurFnYin_c5-18" parent="1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="ウォーキングスケルトン" vertex="1">
+                    <mxGeometry height="60" width="120" x="-390" y="255" as="geometry"/>
+                </mxCell>
+                <mxCell id="fvY_vTZm3ZurFnYin_c5-19" parent="1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="タスクリスト" vertex="1">
+                    <mxGeometry height="60" width="120" x="-390" y="345" as="geometry"/>
+                </mxCell>
+                <mxCell id="fvY_vTZm3ZurFnYin_c5-20" parent="1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="通知機能" vertex="1">
+                    <mxGeometry height="60" width="120" x="-390" y="435" as="geometry"/>
+                </mxCell>
+                <mxCell id="fvY_vTZm3ZurFnYin_c5-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#f8cecc;strokeColor=#b85450;" value="解答" vertex="1">
+                    <mxGeometry height="60" width="120" x="595" y="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="fvY_vTZm3ZurFnYin_c5-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#f8cecc;strokeColor=#b85450;" value="見る" vertex="1">
+                    <mxGeometry height="60" width="120" x="1155" y="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="fvY_vTZm3ZurFnYin_c5-27" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="難易度を選択" vertex="1">
+                    <mxGeometry height="60" width="120" x="450" y="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="fvY_vTZm3ZurFnYin_c5-28" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="問題を作成する" vertex="1">
+                    <mxGeometry height="60" width="120" x="-247" y="165" as="geometry"/>
+                </mxCell>
+                <mxCell id="fvY_vTZm3ZurFnYin_c5-29" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#f8cecc;strokeColor=#b85450;" value="問題を作成" vertex="1">
+                    <mxGeometry height="60" width="120" x="-250" y="75" as="geometry"/>
+                </mxCell>
+                <mxCell id="fvY_vTZm3ZurFnYin_c5-30" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="自分の体験に基づいて問題を作成する" vertex="1">
+                    <mxGeometry height="60" width="120" x="-116" y="255" as="geometry"/>
+                </mxCell>
+                <mxCell id="fvY_vTZm3ZurFnYin_c5-31" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="自分以外の体験に基づいて問題を作成する" vertex="1">
+                    <mxGeometry height="60" width="120" x="-116" y="345" as="geometry"/>
+                </mxCell>
+                <mxCell id="fvY_vTZm3ZurFnYin_c5-32" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="4択にする" vertex="1">
+                    <mxGeometry height="60" width="120" x="595" y="250" as="geometry"/>
+                </mxCell>
+                <mxCell id="fvY_vTZm3ZurFnYin_c5-33" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="・ペットを飼ってる人" vertex="1">
+                    <mxGeometry height="20" width="130" x="300" y="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="fvY_vTZm3ZurFnYin_c5-34" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="・家族" vertex="1">
+                    <mxGeometry height="20" width="130" x="300" y="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="fvY_vTZm3ZurFnYin_c5-35" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="・ペットを飼ってる人" vertex="1">
+                    <mxGeometry height="20" width="130" x="-257" y="55" as="geometry"/>
+                </mxCell>
+                <mxCell id="fvY_vTZm3ZurFnYin_c5-36" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="・ペットを飼ってる人" vertex="1">
+                    <mxGeometry height="20" width="130" x="-410" y="85" as="geometry"/>
+                </mxCell>
+                <mxCell id="fvY_vTZm3ZurFnYin_c5-37" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="・家族" vertex="1">
+                    <mxGeometry height="20" width="130" x="-410" y="105" as="geometry"/>
+                </mxCell>
+                <mxCell id="fvY_vTZm3ZurFnYin_c5-38" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="・ペットを飼いたい人" vertex="1">
+                    <mxGeometry height="20" width="130" x="-410" y="65" as="geometry"/>
+                </mxCell>
+                <mxCell id="fvY_vTZm3ZurFnYin_c5-39" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="・ペットを飼いたい人" vertex="1">
+                    <mxGeometry height="20" width="130" x="300" y="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="fvY_vTZm3ZurFnYin_c5-40" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="・ペットを飼ってる人" vertex="1">
+                    <mxGeometry height="20" width="130" x="590" y="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="fvY_vTZm3ZurFnYin_c5-41" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="・家族" vertex="1">
+                    <mxGeometry height="20" width="130" x="590" y="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="fvY_vTZm3ZurFnYin_c5-42" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="・ペットを飼いたい人" vertex="1">
+                    <mxGeometry height="20" width="130" x="590" y="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="fvY_vTZm3ZurFnYin_c5-43" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="・ペットを飼ってる人" vertex="1">
+                    <mxGeometry height="20" width="130" x="1150" y="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="fvY_vTZm3ZurFnYin_c5-44" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="・家族" vertex="1">
+                    <mxGeometry height="20" width="130" x="1150" y="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="fvY_vTZm3ZurFnYin_c5-45" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="・ペットを飼いたい人" vertex="1">
+                    <mxGeometry height="20" width="130" x="1150" y="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="fvY_vTZm3ZurFnYin_c5-49" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="半分以下だったら励ます" vertex="1">
+                    <mxGeometry height="60" width="120" x="1445" y="250" as="geometry"/>
+                </mxCell>
+                <mxCell id="fvY_vTZm3ZurFnYin_c5-50" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="1問だけ保存できる" vertex="1">
+                    <mxGeometry height="60" width="120" x="20" y="250" as="geometry"/>
+                </mxCell>
+                <mxCell id="fvY_vTZm3ZurFnYin_c5-51" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="複数問保存できる" vertex="1">
+                    <mxGeometry height="60" width="120" x="20" y="340" as="geometry"/>
+                </mxCell>
+                <mxCell id="fvY_vTZm3ZurFnYin_c5-52" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="手動保存する" vertex="1">
+                    <mxGeometry height="60" width="120" x="160" y="250" as="geometry"/>
+                </mxCell>
+                <mxCell id="fvY_vTZm3ZurFnYin_c5-53" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="自分以外が問題を作成したら自分に届くようにして、出題していい問題か判断する" vertex="1">
+                    <mxGeometry height="90" width="120" x="-116" y="435" as="geometry"/>
+                </mxCell>
+                <mxCell id="fvY_vTZm3ZurFnYin_c5-54" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="✅よく飼われるペットを表示する" vertex="1">
+                    <mxGeometry height="60" width="120" x="305" y="340" as="geometry"/>
+                </mxCell>
+                <mxCell id="fvY_vTZm3ZurFnYin_c5-55" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="いつでもリタイアできるようにする" vertex="1">
+                    <mxGeometry height="60" width="120" x="860" y="430" as="geometry"/>
+                </mxCell>
+                <mxCell id="fvY_vTZm3ZurFnYin_c5-56" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="誤タップで解答することがないように、1度押して「〇を選びますか？」と表示し、はい・いいえを表示する" vertex="1">
+                    <mxGeometry height="100" width="120" x="595" y="430" as="geometry"/>
+                </mxCell>
+                <mxCell id="fvY_vTZm3ZurFnYin_c5-57" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="任意でヒントを表示できるようにする" vertex="1">
+                    <mxGeometry height="60" width="120" x="1003" y="250" as="geometry"/>
+                </mxCell>
+                <mxCell id="fvY_vTZm3ZurFnYin_c5-59" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="間違えた問題の1問のどれかのアドバイスを表示" vertex="1">
+                    <mxGeometry height="60" width="120" x="1445" y="430" as="geometry"/>
+                </mxCell>
+                <mxCell id="fvY_vTZm3ZurFnYin_c5-64" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="合計得点、タイムを表示する" vertex="1">
+                    <mxGeometry height="60" width="120" x="1155" y="250" as="geometry"/>
+                </mxCell>
+                <mxCell id="fvY_vTZm3ZurFnYin_c5-65" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="タイムごとに表示するメッセージを変える" vertex="1">
+                    <mxGeometry height="60" width="120" x="1155" y="345" as="geometry"/>
+                </mxCell>
+                <mxCell id="fvY_vTZm3ZurFnYin_c5-66" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="▢ログインをしてもらう" vertex="1">
+                    <mxGeometry height="60" width="120" x="-252" y="250" as="geometry"/>
+                </mxCell>
+                <mxCell id="fvY_vTZm3ZurFnYin_c5-67" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="ペットを選択した際鳴き声を再生する" vertex="1">
+                    <mxGeometry height="60" width="120" x="305" y="530" as="geometry"/>
+                </mxCell>
+                <mxCell id="fvY_vTZm3ZurFnYin_c5-68" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="どのような問題が出題されるのか難易度の下に記載する" vertex="1">
+                    <mxGeometry height="60" width="120" x="450" y="345" as="geometry"/>
+                </mxCell>
+                <mxCell id="fvY_vTZm3ZurFnYin_c5-69" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="満点回答率を下に表示させる" vertex="1">
+                    <mxGeometry height="60" width="120" x="450" y="450" as="geometry"/>
+                </mxCell>
+                <mxCell id="fvY_vTZm3ZurFnYin_c5-70" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="3択4択問題のはずれの答えはランダムになるようにする" vertex="1">
+                    <mxGeometry height="60" width="120" x="730" y="250" as="geometry"/>
+                </mxCell>
+                <mxCell id="fvY_vTZm3ZurFnYin_c5-71" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="歴代最速のタイムを表示する" vertex="1">
+                    <mxGeometry height="60" width="120" x="1153" y="440" as="geometry"/>
+                </mxCell>
+                <mxCell id="beUB7GbvZa1CTFBXnnY0-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="回答率を表示する" vertex="1">
+                    <mxGeometry height="60" width="120" x="730" y="530" as="geometry"/>
+                </mxCell>
+                <mxCell id="beUB7GbvZa1CTFBXnnY0-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="メアド、パスワード、ユーザー名を入力" vertex="1">
+                    <mxGeometry height="60" width="120" x="-253" y="335" as="geometry"/>
+                </mxCell>
+                <mxCell id="beUB7GbvZa1CTFBXnnY0-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="表示するためのボタンを作る" vertex="1">
+                    <mxGeometry height="60" width="120" x="1003" y="530" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
