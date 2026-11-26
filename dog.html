@@ -1,0 +1,162 @@
+<html>
+
+<head>
+    <title>Animal Quiz</title>
+    <style>
+        /* ホームページの背景、レイアウト */
+        body {
+            margin: 0;
+            padding: 40px 20px;
+            background-color: #d8f3dc; 
+            color: #222222;
+            font-family: sans-serif;
+            text-align: center;
+        }
+
+        /* 難易度・クイズ・結果の3つの箱の共通設定 */
+        #level-box, #quiz-box, #result-box {
+            background-color: #ffffff;
+            padding: 20px;
+            max-width: 500px;
+            margin: 20px auto;
+        }
+
+        /* 最初はクイズ画面と結果画面を隠しておく */
+        #quiz-box, #result-box {
+            display: none;
+        }
+
+        button {
+            padding: 10px 20px;
+            margin: 5px;
+            font-size: 16px;
+            min-width: 80px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>犬のクイズ</h1>
+    <div id="level-box">
+        <p>難易度を選んでね</p>
+        <button onclick="startEasy()">初級</button>
+        <button onclick="startNormal()">中級</button>
+        <button onclick="startHard()">上級</button>
+    </div>
+    <div id="level-info">
+        <p><strong>【初級】</strong> 基本のお世話や食べ物の問題</p>
+        <p><strong>【中級】</strong> 犬の体のしくみや気持ちの問題</p>
+        <p><strong>【上級】</strong> 専門家レベルの豆知識・犬種の問題</p>
+    </div>
+    <div id="quiz-box">
+        <p id="question">ここに問題が出る</p>
+        <div id="choices-box"></div>
+    </div>
+    <div id="result-box">
+        <h2>結果発表！</h2>
+        <p id="score-text"></p>
+        <button onclick="location.reload()">難易度選択に戻る</button>
+    </div>
+
+    <p><a href="index.html">戻る</a></p>
+
+    <script>
+        const easyQuiz = [
+            { q: "犬は汗をかくとき全身から汗が出る？", c: ["○", "×"], a: "×" },
+            { q: "犬が食べちゃダメなのは？", c: ["りんご", "チョコ", "いも"], a: "チョコ" },
+            { q: "犬の祖先と言われている動物は？", c: ["キツネ", "オオカミ", "タヌキ", "クマ"], a: "オオカミ" }
+        ];
+
+        const normalQuiz = [
+            { q: "犬の平熱は人間より高い？", c: ["○", "×"], a: "○" },
+            { q: "犬の汗腺が集中している場所は？", c: ["背中", "お腹", "肉球"], a: "肉球" },
+            { q: "犬が見分けにくい色はどれ？", c: ["青色", "黄色", "赤色", "紫色"], a: "赤色" }
+        ];
+
+        const hardQuiz = [
+            { q: "犬の鼻の模様（鼻紋）は、人間の指紋と同じように1頭ずつすべて違う？", c: ["○", "×"], a: "○" },
+            { q: "成犬の歯は全部で何本ある？", c: ["28本", "32本", "42本"], a: "42本" },
+            { q: "日本犬（天然記念物指定の6犬種）に含まれないのはどれ？", c: ["柴犬", "秋田犬", "土佐犬", "紀州犬"], a: "土佐犬" }
+        ];
+
+        let nowQuiz = []; 
+        let count = 0;    
+        let score = 0;    
+
+        function shuffle(array) {
+            const copy = [...array];
+            for (let i = copy.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [copy[i], copy[j]] = [copy[j], copy[i]];
+            }
+            return copy;
+        }
+
+        function startEasy() {
+            nowQuiz = shuffle(easyQuiz); 
+            count = 0;
+            score = 0;
+            document.getElementById("level-box").style.display = "none";
+            document.getElementById("quiz-box").style.display = "block";
+            show();
+        }
+
+        function startNormal() {
+            nowQuiz = shuffle(normalQuiz); 
+            count = 0;
+            score = 0;
+            document.getElementById("level-box").style.display = "none";
+            document.getElementById("quiz-box").style.display = "block";
+            show();
+        }
+
+        function startHard() {
+            nowQuiz = shuffle(hardQuiz);
+            count = 0; 
+            score = 0;
+            document.getElementById("level-box").style.display = "none";
+            document.getElementById("quiz-box").style.display = "block";
+            show();
+        }
+
+        function show() {
+            document.getElementById("question").textContent = nowQuiz[count].q;
+
+            const choicesBox = document.getElementById("choices-box");
+            choicesBox.innerHTML = ""; 
+
+            let choices = nowQuiz[count].c;
+            if (choices !== "〇") {
+                choices = shuffle(choices);
+            }
+
+            for (let i = 0; i < choices.length; i++) {
+                const btn = document.createElement("button");
+                btn.textContent = choices[i];
+                btn.onclick = function() {
+                    check(choices[i]);
+                };
+                choicesBox.appendChild(btn);
+            }
+        }
+
+        function check(selectedText) {
+            if (selectedText === nowQuiz[count].a) {
+                score = score + 1;
+            }
+
+            count = count + 1;
+
+            if (count < nowQuiz.length) {
+                show();
+            } else {
+                document.getElementById("quiz-box").style.display = "none";
+                document.getElementById("result-box").style.display = "block";
+                document.getElementById("score-text").textContent = 
+                    nowQuiz.length + "問中 " + score + "問 正解！";
+            }
+        }
+    </script>
+</body>    
+
+</html>
